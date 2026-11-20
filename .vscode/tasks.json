@@ -1,0 +1,22 @@
+
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build C#",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
+        "${workspaceFolder}/ClassroomCSharp.csproj",
+        "--nologo"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": "build",
+      "presentation": {
+        "reveal": "silent",
+        "panel": "shared"
+      }
+    }
+  ]
+}
