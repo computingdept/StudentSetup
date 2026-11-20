@@ -1,0 +1,19 @@
+
+{
+  "name": "RHS C# Programming",
+  "image": "mcr.microsoft.com/devcontainers/dotnet:2-10.0",
+  "postCreateCommand": "dotnet restore ClassroomCSharp.csproj",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-dotnettools.csharp"
+      ]
+    },
+    "codespaces": {
+      "openFiles": [
+        "Program.cs",
+        "README.md"
+      ]
+    }
+  }
+}
