@@ -1,0 +1,17 @@
+
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run C# Program",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "Build C#",
+      "program": "${workspaceFolder}/bin/Debug/net10.0/ClassroomCSharp.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "stopAtEntry": false
+    }
+  ]
+}
